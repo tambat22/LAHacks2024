@@ -1,6 +1,8 @@
 import google.generativeai as genai
 import PIL.Image
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 def img_to_text(image_path):
     genai.configure(api_key=os.environ["GEMINI_API_KEY"])
