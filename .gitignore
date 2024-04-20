@@ -147,8 +147,8 @@ dmypy.json
 .pyre/
 
 # Jpeg files
-.jpg
-.jpeg
+*.jpg
+*.jpeg
 
 # pytype static type analyzer
 .pytype/
